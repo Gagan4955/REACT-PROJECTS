@@ -1,0 +1,66 @@
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(12, 12, 15);
+}
+
+.calc{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px 0px  rgb(67, 69, 70);
+}
+
+form input{
+  border: none;
+  width: 60px;
+  height: 60px;
+  font-size: 15px;
+  background-color: rgb(145, 42, 242);
+  margin: 2px;
+  border-radius: 10px;
+  color: beige;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgb(13, 13, 13);
+
+}
+input[type="button"]:hover{
+  background-color: rgb(208, 173, 240);
+  transform: scale(0.9);
+}
+
+form .display input{
+  margin-bottom: 10px;
+  width: 250px;
+  font-weight:bold;
+  font-size: 30px;
+  padding: 5px;
+  display: flex;
+  text-align: end;
+  background-color: rgb(184, 12, 101);
+  box-shadow: 10px 10px 10px rgb(83, 73, 73);
+}
+
+form #sum {
+  width: 125px;
+}
+.clear{
+  background-color: rgb(73, 99, 47);
+}
+
+.clear:hover{
+  background-color: rgb(61, 94, 61);
+}
+
+.tot  {
+  background-color: rgb(93, 54, 26);
+}
+
+.tot:hover{
+  background-color: rgb(116, 88, 80);
+}
